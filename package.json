@@ -5,22 +5,20 @@
     "engines": {
         "oni": "^0.0.1"
     },
-    "scripts": {
-    },
+    "scripts": {},
     "oni": {
         "supportedFileTypes": [
             "javascript",
             "typescript"
         ],
-          "commands": {
-              "tslint.fix": {
+        "commands": {
+            "tslint.fix": {
                 "name": "TSLint: Fix",
                 "details": "Automatically fix lint issues for certain rules"
-              }
-          }
+            }
+        }
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "find-up": "2.1.0",
         "tslint": "5.7.0",
